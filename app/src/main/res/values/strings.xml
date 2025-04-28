@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PawCare</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome!</string> <!-- Quité las comillas extras -->
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be &gt;5 characters</string> <!-- El ">" se escapa -->
+    <string name="login_failed">Login failed</string> <!-- Quité las comillas extras -->
+    <string name="prompt_pet_type">Selecciona tipo de mascota</string>
+    <string name="content_desc_pet">Mascota feliz</string> <!-- Agregué esto para tu error -->
+
+    <string-array name="pet_types">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

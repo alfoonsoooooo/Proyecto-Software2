@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E3F2FD">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="32dp"
+            android:gravity="center_horizontal">
+
+            <!-- Logo o nombre -->
+            <TextView
+                android:id="@+id/tvAppName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PawCare 🐾"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#1976D2"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Campo Correo Electrónico -->
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="16dp"
+                android:padding="14dp"
+                android:backgroundTint="#64B5F6"
+                android:textColorHint="#0D47A1"
+                android:textColor="#000000" />
+
+            <!-- Campo Contraseña -->
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:layout_marginBottom="8dp"
+                android:padding="14dp"
+                android:backgroundTint="#64B5F6"
+                android:textColorHint="#0D47A1"
+                android:textColor="#000000" />
+
+            <!-- Texto Olvidaste tu contraseña -->
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Olvidaste tu contraseña?"
+                android:textColor="#1976D2"
+                android:layout_marginTop="8dp"
+                android:textSize="16sp"/>
+
+
+            <!-- Botón Iniciar Sesión -->
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Iniciar Sesión"
+                android:backgroundTint="#388E3C"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="16dp"
+                android:padding="14dp"/>
+
+            <!-- Texto para registro -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿No tienes cuenta?"
+                android:textColor="#0D47A1"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"/>
+
+            <!-- Botón Crear Cuenta -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Crear Cuenta"
+                android:backgroundTint="#03A9F4"
+                android:textColor="#FFFFFF"
+                android:padding="12dp"/>
+
+            <!-- Imagen de mascota -->
+            <ImageView
+                android:id="@+id/imgLoginPet"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/imagen2"
+                android:contentDescription="@string/content_desc_pet" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>
