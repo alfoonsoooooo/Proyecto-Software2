@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Título principal: Servicios de PawCare -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:text="Nuestros Servicios"
+            android:textColor="#388E3C"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <!-- Paseo de Perros -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paseo de Perros"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#388E3C"
+                android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/imagen6"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Paseos individuales: Atención exclusiva para tu perro, adaptado a su ritmo."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Paseos en grupo: Interacción con otros perros para una caminata divertida."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Paseos extendidos: Perfectos para perros con mucha energía."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Paseos personalizados: Ajustamos el paseo según las necesidades específicas de tu mascota."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+        <!-- Cuidado de Mascotas en Casa -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuidado de Mascotas en Casa"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#388E3C"
+                android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/imagen7"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Cuidado a domicilio: Tu mascota permanece en su entorno familiar mientras nosotros la cuidamos."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Visitas de bienestar: Alimentación, juegos y compañía durante tus ausencias."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Cuidado nocturno: Podemos quedarnos con tu mascota durante la noche."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Comodidad y seguridad: Sin estrés de lugares desconocidos, rodeada de sus cosas favoritas."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+        <!-- Cuidado con Cámaras de Seguridad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuidado con Cámaras de Seguridad"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#388E3C"
+                android:layout_marginBottom="8dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/imagen8"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Monitoreo remoto: Observa a tu mascota en tiempo real desde tu celular o PC."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Informes diarios: Resumen detallado del día de tu mascota, incluyendo alimentación, juegos y descanso."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="• Protección adicional: Las cámaras también sirven como seguridad adicional para tu hogar."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="© 2025 PawCare. Amor en cada paso 🐾"
+            android:textColor="#777"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FAFAFA"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <!-- Título -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Consejos para el Cuidado de tu Mascota"
+                    android:textSize="26sp"
+                    android:textColor="#388E3C"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Cada tip con título y descripción -->
+                <!-- Tip 1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Alimentación Saludable"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Una dieta balanceada es fundamental para la salud de tu mascota. Elige alimentos de buena calidad y consulta con tu veterinario sobre las porciones adecuadas. Recuerda que cada etapa de la vida (cachorro, adulto, senior) tiene necesidades distintas."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Visitas al Veterinario"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agenda revisiones periódicas para tu mascota, incluso si parece estar sana. Las vacunas y los chequeos de rutina previenen enfermedades graves y mantienen a tu peludito feliz y activo."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3. Ejercicio Diario"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="El ejercicio es esencial para el bienestar físico y mental de tu mascota. Paseos, juegos de buscar la pelota o incluso sesiones de entrenamiento ayudan a mantenerlo en forma y evitar comportamientos destructivos."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 4 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="4. Higiene Regular"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Baños, cepillados y limpieza de oídos son vitales para evitar infecciones y mantener a tu mascota cómoda. ¡No olvides también el cuidado dental con cepillos y snacks especiales!"
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 5 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5. Amor y Atención"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Más allá de lo físico, tu mascota necesita amor, atención y tiempo de calidad contigo. Una mascota que se siente querida es más feliz, más equilibrada y más sana."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 6 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6. Enriquecimiento Mental"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Proporciónale juguetes interactivos, juegos de olfato o entrenamiento con premios. Esto estimula su mente, reduce el estrés y mejora su comportamiento."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="24dp" />
+
+                <!-- Tip 7 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="7. Socialización Temprana"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#388E3C"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Desde temprana edad, permite que tu mascota interactúe con personas, otros animales y distintos ambientes. Esto previene conductas miedosas o agresivas en el futuro."
+                    android:textSize="16sp"
+                    android:textColor="#555"
+                    android:layout_marginBottom="32dp" />
+
+                <!-- Footer -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="© 2025 PawCare. Cuidando lo que más amas 🐾"
+                    android:textColor="#777"
+                    android:textSize="14sp"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:itemIconTint="@color/blue_500"
+            app:itemTextColor="@color/blue_500"
+            app:menu="@menu/bottom_nav_menu" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
