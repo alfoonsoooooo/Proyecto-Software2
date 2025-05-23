@@ -1,5 +1,6 @@
 package com.example.pawcare.ui.login;
 
+import com.example.pawcare.HomeActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -23,10 +24,42 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance(); // Inicializa FirebaseAuth
 
+        // Verificar si el usuario ya está autenticado al abrir la app
+        if (mAuth.getCurrentUser() != null) {
+            // El usuario ya está logueado, redirigir a HomeActivity
+            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+            startActivity(intent);
+            finish();  // Cierra MainActivity para evitar que el usuario regrese a la pantalla de login
+        }
+
         // Botón para ir a registro
         binding.btnRegister.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
             startActivity(intent);
+        });
+
+        // Botón para iniciar sesión
+        binding.btnLogin.setOnClickListener(v -> {
+            String email = binding.etEmail.getText().toString().trim();
+            String password = binding.etPassword.getText().toString().trim();
+
+            if (email.isEmpty() || password.isEmpty()) {
+                showAlertDialog("Campos vacíos", "Por favor completa todos los campos.");
+                return;
+            }
+
+            mAuth.signInWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(task -> {
+                        if (task.isSuccessful()) {
+                            // Inicio de sesión exitoso, redirigir a HomeActivity
+                            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+                            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); // Limpiar la pila de actividades
+                            startActivity(intent);
+                            finish();  // Cierra MainActivity para evitar que el usuario regrese a la pantalla de login
+                        } else {
+                            showAlertDialog("Error", "Correo o contraseña incorrectos.");
+                        }
+                    });
         });
 
         // Botón para recuperar contraseña
